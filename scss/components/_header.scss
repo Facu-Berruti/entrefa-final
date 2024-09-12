@@ -1,5 +1,5 @@
 .header-container{
-    color: #C4C4C4;
+    color: $color;
     background-color: #131212;
     padding: 20px 0;
     display: flex;
@@ -19,6 +19,7 @@
  .nombre{
     font-size: 10ch; 
     
+    
  }
  .iconos{
    
@@ -26,6 +27,11 @@
  .imgt{
     padding-right: 5px;
     padding-top: 3px;
+    &:hover{
+        transform: translate(0, -10px);
+    
+    }
+
 
 }
 

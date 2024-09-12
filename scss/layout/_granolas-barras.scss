@@ -8,11 +8,13 @@
     grid-template-rows: 380px 380px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 60px;
-    
+   
 }
 .grid{
    text-align: center;
    margin: 20px;
+  
+
 }
 .grid-item{
     border: 1px solid black;
@@ -20,11 +22,14 @@
     background-color: #ffffff;
     
     padding: 20px 30px ;
-
+    &:hover{
+        background-color: #ece5e5;
+    
+    }
 }
 .titulo-ventas{
     color: #362a1b;
-    background-color: #c4c4c4;
+    background-color: $color;
     padding: 3% 0;
     font-size: 180%;
    
@@ -38,9 +43,15 @@
 .precio-ventas{
     text-decoration: none;
     color: #131212;
-    background-color: #C4C4C4;
+    background-color: $color;
     border: solid 1px black;
     font-size: 150%;
+    &:hover{
+        color: #c4c4c4;
+        background-color: #131212;
+    
+    }
+
     
 }
 .precio{
